@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 220" width="800" height="220">
+<defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#1c1f4a"/><stop offset="1" stop-color="#3b3f9e"/></linearGradient></defs>
+<rect width="800" height="220" rx="24" fill="url(#g)"/>
+<circle cx="690" cy="60" r="70" fill="#2fc9a0" opacity=".25"><animate attributeName="cy" values="60;40;60" dur="7s" repeatCount="indefinite"/></circle>
+<circle cx="90" cy="180" r="80" fill="#ff6b5e" opacity=".2"><animate attributeName="cy" values="180;200;180" dur="9s" repeatCount="indefinite"/></circle>
+<g fill="none" stroke="#fff" stroke-width="3" stroke-linecap="round">
+<rect x="120" y="85" width="90" height="56" rx="12"/><rect x="590" y="85" width="90" height="56" rx="12"/>
+<path d="M215 113H585" stroke-dasharray="8 10" opacity=".7"><animate attributeName="stroke-dashoffset" values="0;-36" dur="1.2s" repeatCount="indefinite"/></path></g>
+<circle r="7" fill="#ffc24b"><animateMotion dur="2.4s" repeatCount="indefinite" path="M215 113H585"/></circle>
+<text x="165" y="118" text-anchor="middle" fill="#fff" font-family="sans-serif" font-size="16" font-weight="700">Browser</text>
+<text x="635" y="118" text-anchor="middle" fill="#fff" font-family="sans-serif" font-size="16" font-weight="700">Moodle</text>
+<text x="400" y="80" text-anchor="middle" fill="#2fc9a0" font-family="sans-serif" font-size="18" font-weight="700">CORS Proxy</text>
+<text x="400" y="185" text-anchor="middle" fill="#fff" font-family="sans-serif" font-size="30" font-weight="800">moodle-cors-proxy</text>
+</svg>
