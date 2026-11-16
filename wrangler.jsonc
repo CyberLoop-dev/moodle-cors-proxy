@@ -1,0 +1,9 @@
+{
+  "name": "moodle-cors-proxy",
+  "main": "src/index.js",
+  "compatibility_date": "2026-01-01",
+  "vars": {
+    "UPSTREAM": "https://www.m1.mofidlms.com",
+    "ALLOW_ORIGIN": "*"
+  }
+}
